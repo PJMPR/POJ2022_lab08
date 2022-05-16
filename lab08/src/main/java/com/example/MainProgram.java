@@ -77,12 +77,20 @@ public class MainProgram {
          *  - SearchByWordFilter
          *  - SearchByMillageFilter
          *  - SearchByDateFilter
+         *
+         * Utwórz interface o nazwie 'Filter' oraz zadeklaruj go w definicji klas odpowiadających za filtrowanie kolekcji
+         * Interface ma być wyciągniety z klasy 'SearchByYearFilter' 
+         * tzn. mają być w nim zadeklarowane wszystkie publiczne metody z klasy 'SearchByYearFilter':
+         *  - setCarOffers, 
+         *  - setSearchSettings, 
+         *  - canFilter, 
+         *  - filter
          */
 
-//        SearchByPriceFilter priceFilter = new SearchByPriceFilter();
-//        SearchByWordFilter wordFilter = new SearchByWordFilter();
-//        SearchByMillageFilter milleageFilter = new SearchByMillageFilter();
-//        SearchByDateFilter dateFilter = new SearchByDateFilter();
+//        Filter priceFilter = new SearchByPriceFilter();
+//        Filter wordFilter = new SearchByWordFilter();
+//        Filter milleageFilter = new SearchByMillageFilter();
+//        Filter dateFilter = new SearchByDateFilter();
 
         /**
          * tak jak przy filtrze z rocznikiem wypełnij te obiekty danymi wyszukiwania i kolekcją ogłoszeń do przefiltrowania
